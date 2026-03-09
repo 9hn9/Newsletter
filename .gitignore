@@ -1,0 +1,44 @@
+# 1. Virtual environments
+# 1a. Local virtual environment folders that contain installed packages and Python binaries
+.venv/
+venv/
+
+# 2. Python cache / artifacts
+# 2a. Python bytecode cache directories created automatically by the interpreter
+__pycache__/
+# 2b. Compiled Python files that are regenerated and should not be versioned
+*.py[cod]
+*.pyo
+*.pyd
+
+# 3. Environment and secrets
+# 3a. Local environment variables file containing secrets such as API keys
+.env
+# 3b. Other local env files that may hold machine-specific or secret config
+#.env.*.local
+
+# 4. Local configuration / editor files
+# 4a. VS Code project settings specific to your local environment
+.vscode/
+# 4b. IDE configuration for JetBrains tools like PyCharm
+.idea/
+
+# 5. OS-specific junk
+# 5a. Windows Explorer thumbnail cache file
+Thumbs.db
+
+# 6. Logs and temp files
+# 6a. Log files produced during runs
+*.log
+# 6b. Temporary files created during editing or executio
+*.tmp
+
+# Output directories
+# 7a. Generated newsletter HTML output directory
+Outputs/
+# 7b. Generated per-article HTML archive directory
+Archive/
+
+#8. All other files
+newsletter.pptx
+logo.png

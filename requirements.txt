@@ -1,0 +1,8 @@
+feedparser # Parse RSS feeds into structured Python objects for article metadata
+requests # Make HTTP requests to fetch web pages and call the LLM API
+beautifulsoup4 # Extract main article content from raw HTML pages
+python-dotenv # Load configuration and secrets from a .env file into environment variables
+pandas # Read and process the Excel feed configuration file
+openpyxl # Engine used by pandas to read .xlsx Excel files
+groq # Groq API client for LLM interactions
+schedule # Task scheduling library for automated newsletter generation
